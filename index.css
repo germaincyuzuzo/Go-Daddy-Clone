@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p{
+    padding: 0;
+    margin: 0;
+}
+
+section#header{
+    background-color: rgb(43, 43, 43);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 99%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+}
+
+nav div.left{
+    display: flex;
+    width: 60%;
+}
+
+nav div.left div.logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+nav div.left img{
+    max-width: 20%;
+}
+
+nav div.left div.logo p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav div.left ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav div.left ul li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav div.left ul li:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+nav div.left ul li:nth-child(1)::after,
+nav div.left ul li:nth-child(2)::after,
+nav div.left ul li:nth-child(4)::after,
+nav div.left ul li:nth-child(5)::after{
+    content: "";
+    background-image: url('./img/down-arrow-5-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+
+nav div.right ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav div.right ul li{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+nav div.right ul li:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+nav div.right ul li:last-child:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+nav div.right ul li:last-child::before{
+    content: "";
+    background-image: url('./img/shopping-cart-02-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+nav div.right img{
+    max-width: 7%;
+}
