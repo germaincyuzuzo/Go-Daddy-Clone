@@ -215,3 +215,107 @@ div.iosub p{
     font-size: 13px;
     font-weight: bold;
 }
+
+section.banner div.bottom{
+    display: flex;
+    padding: 20px;
+    /* gap: 40px; */
+}
+
+section.banner div.bottom div.left{
+    padding: 40px;
+    /* background-color: red; */
+    background-image: url('./img/intl-img-bl-prod-feature-engage-with-marketing-desktop.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 90%;
+}
+
+section.banner div.bottom div.left p:first-child{
+    background-color: lightgray;
+    width: 50px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.banner div.bottom div.left .logo2{
+    margin: 10px 0;
+}
+
+section.banner div.bottom div.leftcontent h1{
+    font-size: 60px;
+    /* color: rgb(4, 112, 103); */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section.banner div.bottom div.leftcontent p{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+div.leftcontent ul{
+    padding-left: 20px;
+}
+
+div.left div.buttons{
+    padding: 20px 0;
+}
+
+div.left div.buttons button:first-child{
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+
+div.left div.buttons button:last-child{
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: none;
+}
+
+div.bottom div.right{
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 50px 10px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+div.rightcontent p:first-child{
+    background-color: skyblue;
+    width: 50px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+}
+
+div.rightcontent p:nth-child(2){
+    padding: 10px 0;
+}
+
+div.rightcontent h1{
+    padding: 10px 0;
+}
+
+div.rightcontent button{
+    padding: 10px 30px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
