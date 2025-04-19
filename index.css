@@ -456,3 +456,116 @@ section.marketing div.button{
     margin: 0 auto;
     text-align: center;
 }
+
+section.clients{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+section.clients h1:first-child{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+section.clients div.testimony{
+    background-image: url('./img/pexels-cottonbro-3944406.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.testimony div{
+    width: 100%;
+}
+
+div.testimony div.left{
+    position: relative;
+    top: 38em;
+}
+
+div.testimony div.left p:first-child{
+    font-weight: bold;
+}
+
+div.testimony div.testcontent{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+div.testimony div.testcontent p.only{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+div.testimony div.testcontent div.bottom{
+    display: flex;
+}
+
+div.testcontent div.bottom div:first-child{
+    max-width: 100%;
+}
+
+div.testcontent div.bottom div:first-child p span{
+    font-weight: bold;
+}
+
+div.testcontent div.bottom div:first-child ul{
+    padding: 10px;
+}
+
+div.testcontent div.bottom div:first-child ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+div.testcontent div.bottom div:first-child ul li:nth-child(1)::before{
+    content: "";
+    background-image: url("./img/search-svgrepo-com-black.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+div.testcontent div.bottom div:first-child ul li:nth-child(2)::before{
+    content: "";
+    background-image: url("./img/online-store-laptop-ecommerce-svgrepo-com.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+div.testcontent div.bottom div:first-child ul li:nth-child(3)::before{
+    content: "";
+    background-image: url("./img/security-protection-shield-svgrepo-com.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+div.testcontent div.bottom img{
+    max-width: 100%;
+    border-radius: 10px;
+}
