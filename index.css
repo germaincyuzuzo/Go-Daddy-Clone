@@ -319,3 +319,90 @@ div.rightcontent button{
     font-weight: bold;
     cursor: pointer;
 }
+
+section.domains{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+section.domains ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+section.domains ul li{
+    list-style-type: none;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.domains div.domainscontent{
+    display: flex;
+    max-width: 90%;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+div.domainscontent div.left{
+    background-color: rgb(223, 255, 255);
+    padding: 20px;
+    padding-top: 20em;
+    height: 30em;
+    border-radius: 10px;
+    width: 90%;
+}
+
+
+div.domainscontent div.left h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.domainscontent div.left p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+div.domainscontent div.left button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+div.domainscontent div.right{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    padding-top: 20em;
+    height: 30em;
+    border-radius: 10px;
+    width: 90%;
+}
+
+div.domainscontent div.right h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.domainscontent div.right p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+div.domainscontent div.right button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+}
