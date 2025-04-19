@@ -136,34 +136,82 @@ section.banner div.top{
 }
 
 div.searchbar{
-    padding: 10px;
-    width: 80%;
+    margin: 10px;
+    width: 78%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.08), 0 1px 18px rgba(0,0,0,0.12);
+    border-radius: 10px;
+    align-items: center;
 }
 
-div.searchbutton{
-    background-color: rgb(4, 112, 80);
-    width: 150px;
-    text-align: center;
-    padding: 20px 10px;
-    position: relative;
-    bottom: 2em;
+form{
+    width: 95%;
 }
 
 form input{
     width: 90%;
-    height: 100px;
+    height: 90px;
     border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+}
+
+form input::placeholder{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form::before{
+    content: "";
+    background-image: url('./img/search-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 6px;
+    left: 8px;
+}
+
+div.searchbutton{
+    background-color: rgb(4, 112, 103);
+    width: 180px;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    height: 70px;
+}
+
+
+div.iosub{
+    width: 20%;
+    padding: 22px 15px;
     border-radius: 10px;
 }
 
-div.iosub{
-    width: 10%;
+div.iosub:hover{
+    border: 1px solid lightgray;
+    background-color: white;
 }
 
 div.iosub h1{
     font-size: 15px;
 }
 
+div.iosub h1:hover{
+    color: rgb(4, 112, 103);
+}
+
 div.iosub p{
     font-size: 13px;
+    font-weight: bold;
 }
