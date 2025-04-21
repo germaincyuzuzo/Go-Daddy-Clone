@@ -484,6 +484,7 @@ div.testimony div{
 div.testimony div.left{
     position: relative;
     top: 38em;
+    height: 20px;
 }
 
 div.testimony div.left p:first-child{
@@ -568,4 +569,41 @@ div.testcontent div.bottom div:first-child ul li:nth-child(3)::before{
 div.testcontent div.bottom img{
     max-width: 100%;
     border-radius: 10px;
+}
+
+div.trustcustomers{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* div.trustcustomers h1{
+    padding: 0;
+} */
+
+div.trustcustcontent{
+    display: flex;
+    gap: 20px;
+}
+
+div.trustcustcontent div{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(184, 236, 184);
+    border-radius: 10px;
+}
+
+div.trustcustcontent div p{
+    margin-top: 20px;
+}
+
+div.trustcustcontent div h2{
+    font-size: 15px;
+}
+
+div.trustcustcontent div div.rating{
+    display: flex;
+}
+
+div.trustcustcontent div div.rating div{
+    width: 10%;
 }
